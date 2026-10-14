@@ -1,0 +1,12 @@
+{
+  "name": "Qwen Coder 14B Workspace",
+  "image": "://microsoft.com",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Continue.continue"
+      ]
+    }
+  },
+  "postCreateCommand": "curl -fsSL https://ollama.com | sh && (ollama serve > /tmp/ollama.log 2>&1 &) && sleep 5 && ollama pull qwen2.5-coder:14b"
+}
