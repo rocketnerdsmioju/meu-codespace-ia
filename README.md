@@ -1,0 +1,2 @@
+# meu-codespace-ia
+MEU CODESPACE OLLAMA COM QWEN 3.0
